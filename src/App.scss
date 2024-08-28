@@ -1,0 +1,11 @@
+.ellipsis-line1 {
+  white-space: nowrap; /* 保证文本不会换行 */
+  overflow: hidden; /* 超出容器部分隐藏 */
+  text-overflow: ellipsis; /* 超出文本显示为省略号 */
+}
+
+.flex-center {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
